@@ -1,76 +1,27 @@
-# deskapp
+# Arch
 
-DeskApp Admin is a free to use Bootstrap 4 admin template. This template uses the default Bootstrap 4 styles along with a variety of powerful jQuery plugins and tools to create a powerful framework for creating admin panels or back-end dashboards.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
 
-Theme uses several libraries for charts, calendar, text forms, date range, upload area, form autocomplete, range slider, progress bars, notifications and much more.
+## Development server
 
-We would love to see how you use this awesome admin template. You can notify us about your site. Once the list will grown long enough we will write a post similar to this to showcase the best examples.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-# Quick start
-Several quick start options are available:
-* Clone the repo: git clone https://github.com/dropways/deskapp.git
-* Install with npm: 
-  `npm install deskapp`
+## Code scaffolding
 
-## Built With
-* Bootstrap 4
-* Bootstrap Select
-* Bootstrap Tagsinput
-* Bootstrap Touchspin
-* Bootstrap-wysihtml5
-* Moment Js
-* Clipboard Js
-* Air Datepicker
-* Cropperjs
-* Datatables
-* Dropzone
-* Fancybox 3
-* Fullcalendar
-* Highcharts
-* Ion-rangeslider
-* jQuery Ascolorpicker
-* jQuery Asgradient
-* jQuery Knob
-* jQuery Steps
-* Jvectormap
-* Mcustom scrollbar
-* Plyr
-* Select2
-* Slick Slider
-* Sweetalert2
-* Switchery
-* Timedropper
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Sample Screens
-<img src="https://user-images.githubusercontent.com/38377336/86491687-03ca9a00-bd89-11ea-8a3a-11dcfcddd254.png" alt="Template 1">
+## Build
 
-## Demo link
-A fully functional demo is available at
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-- demo 1 https://dropways.github.io/deskapp/
-- demo 2 https://deskapp-dashboard.herokuapp.com/
+## Running unit tests
 
-## Bugs Reports
-Have a bug or a feature request? Please open a new issue.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-# MIT License
+## Running end-to-end tests
 
-Copyright (c) 2018 DeskApp
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Further help
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
