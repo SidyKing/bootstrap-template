@@ -3,13 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: AppComponent,
-    data: {
-      title: 'App'
-    }
-  },
+  
   { 
   path: '',
   component: AppComponent,
@@ -21,6 +15,15 @@ const routes: Routes = [
         path: 'connexion',
         loadChildren: () => import('./connexion/connexion.module').then(m => m.ConnexionModule)
       },
+      {
+        path: 'pages',
+        loadChildren: () => import('./pages/pages.module').then(m => m.PagesModule)
+      },
+      {
+        path:'',
+        redirectTo:'connexion',
+        pathMatch:'full',
+      }
     ]
   }
 

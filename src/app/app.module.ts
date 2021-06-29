@@ -7,6 +7,8 @@ import { HeaderComponent } from './containers/header/header.component';
 import { SideBarComponent } from './containers/side-bar/side-bar.component';
 import { FooterComponent } from './containers/footer/footer.component';
 import { ConnexionModule } from './connexion/connexion.module';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { MainComponent } from './pages/main/main.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,7 @@ import { ConnexionModule } from './connexion/connexion.module';
     HeaderComponent,
     SideBarComponent,
     FooterComponent,
+    MainComponent,
   
   ],
   imports: [
@@ -21,7 +24,9 @@ import { ConnexionModule } from './connexion/connexion.module';
     AppRoutingModule,
     ConnexionModule
   ],
-  providers: [],
+  providers: [
+    { provide: LocationStrategy, useClass: HashLocationStrategy}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
