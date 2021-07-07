@@ -9,6 +9,8 @@ import { FooterComponent } from './containers/footer/footer.component';
 import { ConnexionModule } from './connexion/connexion.module';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { MainComponent } from './pages/main/main.component';
+import { PagesModule } from './pages/pages.module';
+import { AcceuilComponent } from './pages/acceuil/acceuil.component';
 
 @NgModule({
   declarations: [
@@ -17,12 +19,14 @@ import { MainComponent } from './pages/main/main.component';
     SideBarComponent,
     FooterComponent,
     MainComponent,
+    AcceuilComponent
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ConnexionModule
+    ConnexionModule,
+    PagesModule
   ],
   providers: [
     { provide: LocationStrategy, useClass: HashLocationStrategy}
